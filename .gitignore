@@ -1,0 +1,24 @@
+# Docker data
+**/data/
+**/logs/
+
+# Secrets
+.env
+*.secret
+*.key
+*.pem
+
+# Database files
+*.db
+*.sqlite
+
+# Media
+**/media/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
