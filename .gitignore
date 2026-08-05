@@ -16,7 +16,7 @@
 **/media/
 
 #DNS
-**/services/technitium
+**/technitium/
 
 # Temporary files
 *.tmp
