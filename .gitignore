@@ -1,27 +1,50 @@
-# Docker data
-**/data/
-**/logs/
-
-# Secrets
-.env
-*.secret
-*.key
-*.pem
-
 # Database files
 *.db
 *.sqlite
-
-# Media
-**/media/
-
-#DNS
-**/technitium/
 
 # Temporary files
 *.tmp
 *.bak
 
+
+# Secrets
+.env
+.env.*
+*.secret
+*.token
+
+# Docker volumes
+**/data/
+**/config/
+**/configs/
+**/db/
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Backups
+backup/
+backups/
+*.bak
+*.sql
+
 # OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Service-specific
+**/technitium/
+**/dashy/
+**/nginx-pm/letsencrypt/
