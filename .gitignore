@@ -15,6 +15,9 @@
 # Media
 **/media/
 
+#DNS
+**/services/technitium
+
 # Temporary files
 *.tmp
 *.bak
